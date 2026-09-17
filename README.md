@@ -71,6 +71,10 @@ npm run build
 
 遊戲示意圖目前來自 Unsplash，瀏覽器必須能連線至外部圖片服務。正式產品建議將取得授權的圖片放入儲存庫並由 Pages 一同發布。
 
+### 頁面完全空白
+
+先到 **Actions** 確認最新的 Pages 部署已成功，再按 `Ctrl + Shift + R` 強制重新整理。建置流程會先檢查前端 JavaScript 語法，避免語法錯誤的版本再次被部署；入口頁也會以相對路徑載入 JavaScript 與 CSS，因此可在 GitHub Pages 的專案子路徑運作。
+
 ### 可以直接在 GitHub Pages 執行真正的雲端遊戲嗎？
 
 不行。Pages 僅負責前端介面。正式雲端遊戲服務至少還需要：
